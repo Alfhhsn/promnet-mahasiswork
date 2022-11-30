@@ -7,9 +7,9 @@
     <title>Percobaan</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" width = "200px">
         <style>
-            
+
         </style>
     </div>
 </body>
