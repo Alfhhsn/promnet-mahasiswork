@@ -7,7 +7,7 @@
     <title>Percobaan</title>
 </head>
 <body>
-    <div>
+    <div class="container">
         <style>
             
         </style>
