@@ -18,16 +18,18 @@
           <h1 class="welcome">Welcome back, people!</h1>
           <span class="desc">Welcome back! Please enter your details</span>
           <button type="button" class="btn btn-outline-light goog-log">Login with Google</button>
-          <div class="form-floating content-center mb-3 my-4">
-            <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="your email" value="your email">
-            <label class="label" for="floatingPlaintextInput">Email</label>
-          </div>
-          <div class="form-floating mb-3 my-4">
-            <input type="email" readonly class="form-control-plaintext" id="floatingPlaintextInput" placeholder="your email" value="your Password">
-            <label class="label" for="floatingPlaintextInput">Password</label>
+          <div class="identity">
+            <div class="form-floating mb-3 my-4">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email</label>
+            </div>
+            <div class="form-floating mb-3 my-2">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
           </div>
           <section class="create-acc">
-            <span class="create">Create an account? <a href="">Here</a></span>
+            <span class="create">Create an account? <a href="/sign-up">Here</a></span>
           </section>
           <section class="remember">
             <input class="form-check-input mt-0 klik" type="checkbox" value="" aria-label="Checkbox for following text input">

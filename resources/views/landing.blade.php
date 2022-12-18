@@ -24,10 +24,10 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Become a freelance</a>
+                <a class="nav-link" href="/sign-up">Become a freelance</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link btn btn-primary login-button" href="#">Login</a>
+                <a class="nav-link btn btn-primary login-button" href="/login">Login</a>
               </li>
             </ul>
           </div>
